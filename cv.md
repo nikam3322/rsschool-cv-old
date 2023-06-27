@@ -1,11 +1,11 @@
-## **Nika Peraverzeva** <img src="https://github.com/nikam3322/rsschool-cv/assets/93270959/3b6a3f4a-bc98-4f60-b052-2a64f52af863" width="190" align="right">
+# **Nika Peraverzeva** <img src="https://github.com/nikam3322/rsschool-cv/assets/93270959/3b6a3f4a-bc98-4f60-b052-2a64f52af863" width="190" align="right">
 
 
-Email: nikam3322@gmail.com
+**Email:** nikam3322@gmail.com
 
-Phone: +48881357864
+**Phone:** +48881357864
 
-Location: Gdansk, Poland
+**Location:** Gdansk, Poland
 
 I am motivated and dedicated student seeking opportunities to apply my knowledge and skills in a challenging work environment. Committed to personal and professional growth, I aim to contribute to a dynamic organization while expanding my horizons.
 
