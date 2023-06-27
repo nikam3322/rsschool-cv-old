@@ -9,13 +9,6 @@ Location: Gdansk, Poland
 
 I am motivated and dedicated student seeking opportunities to apply my knowledge and skills in a challenging work environment. Committed to personal and professional growth, I aim to contribute to a dynamic organization while expanding my horizons.
 
-**Strengths**:
-- Strong analytical and problem-solving skills acquired through academic studies and work experience.
-- Excellent communication skills developed through tutoring and customer service roles.
-- Detail-oriented with a passion for accuracy and precision.
-- Self-motivated and quick learner, always eager to expand my knowledge and acquire new skills.
-- Ability to work effectively both independently and as part of a team.
-
 **Education:**
 
 Gdansk University of Technology, Faculty of Management and Economics,
@@ -60,3 +53,10 @@ Belarusian (Native).
 - Python
 - Delphy
 - Pascal
+
+**Strengths**:
+- Strong analytical and problem-solving skills acquired through academic studies and work experience.
+- Excellent communication skills developed through tutoring and customer service roles.
+- Detail-oriented with a passion for accuracy and precision.
+- Self-motivated and quick learner, always eager to expand my knowledge and acquire new skills.
+- Ability to work effectively both independently and as part of a team.
