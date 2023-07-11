@@ -60,3 +60,5 @@ Belarusian (Native).
 - Detail-oriented with a passion for accuracy and precision.
 - Self-motivated and quick learner, always eager to expand my knowledge and acquire new skills.
 - Ability to work effectively both independently and as part of a team.
+
+CV
