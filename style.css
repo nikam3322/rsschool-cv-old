@@ -1,1 +1,80 @@
-
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/assets/fonts/Forum/Forum-Regular.ttf') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+/* inter-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('assets/fontsinter-v12-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('assets/fontsinter-v12-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+html{
+    box-sizing: border-box;
+}
+*, *::before, * :after{
+    box-sizing: inherit;
+}
+.header__background {
+    height: 90px;
+    background-color: #0C0C0E;
+}
+.header__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.header__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+body {
+    font-family: 'Forum';
+}
+.header__item {
+    margin-right: 30px;
+    font-style: 'Inter';
+    font-weight: 400;
+}
+.header__item:last-child {
+    margin-right: 0px;
+}
+.header__link {
+    font-size: 20px;
+    line-height: 50px;
+    color: #FFF;
+    text-decoration: none;
+}
+.header__link:hover, .header__link:focus, .header__link:active {
+    opacity: 0.75;
+}
+.header__name {
+    font-family: 'Forum';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.6px;
+    color:#FFF;
+}
+.header__nav__icon {
+    display: flex;
+    justify-content: space-between;
+}
+.icon {
+    padding: 20px;
+}
