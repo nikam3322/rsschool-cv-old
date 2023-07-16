@@ -28,6 +28,9 @@ html{
 *, *::before, * :after{
     box-sizing: inherit;
 }
+body {
+    margin: 0px;
+}
 .header__background {
     height: 90px;
     background-color: #0C0C0E;
