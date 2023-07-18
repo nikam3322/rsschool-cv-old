@@ -461,6 +461,18 @@ body {
   text-transform: capitalize;
   margin: 0px;
   height: 40px;
+  width: 199px;
+}
+.coffee__menu__item___des__name {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin: 0px;
 }
 .menu__line {
   width: 100px;
@@ -476,17 +488,44 @@ body {
   line-height: 40px;
   letter-spacing: 2px;
   text-transform: capitalize;
+  margin: 0px;
 }
 .menu__line {
   width: 100px;
   height: 1px;
   background: #bb945f;
 }
-.coffee__menu__item {
+.coffee__menu__coffee__item {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 60px;
 }
-
+.coffee__menu__deserts__item {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 60px;
+}
+.coffee__coffee__menu {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+.coffee__deserts__menu {
+  display: flex;
+  width: 482px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 40px;
+}
+.coffee__menu {
+  height: 520px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
 /* Coffee shop section styles end */
