@@ -529,3 +529,177 @@ body {
   margin-bottom: 40px;
 }
 /* Coffee shop section styles end */
+
+/* Our contacts section styles start */
+.contacts__wrapper {
+  display: flex;
+  width: 1440px;
+  padding: 20px 20px 40px 20px;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+.contacts__info {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 201px;
+}
+.contacts__text__info__name {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin: 0px;
+  width: 306px;
+  height: 40px;
+  text-align: left;
+  white-space: nowrap;
+}
+.contacts__text__info__title {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: start;
+  flex-flow: column nowrap;
+}
+.contacts__text__phone__info__name {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  height: 40px;
+  margin: 0px 0px 20px 0px;
+  text-align: left;
+}
+.contacts__text__phone__info__name:last-child {
+  margin: 0px;
+}
+.contacts__text__info {
+  display: flex;
+  justify-content: start;
+  flex-flow: column nowrap;
+}
+.map__photo {
+  width: 696px;
+  height: 414px;
+}
+.contacts__map {
+  width: 696px;
+  height: 414px;
+}
+/* Our contacts section styles end */
+
+/* Digital library cards section styles start */
+.cards__wrapper {
+  width: 1440px;
+  height: 614px;
+  background: #fff;
+  margin: 20px;
+  margin-bottom: 41px;
+}
+.card__body__name {
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  margin: 40px 0px 30px 0px;
+}
+.card__bg {
+  width: 600px;
+  height: 386px;
+  flex-shrink: 0;
+}
+.card__white__bg {
+  width: 600px;
+  height: 386px;
+  flex-shrink: 0;
+  border: 3px solid #bb945f;
+  background: #fff;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.card__gold__bg {
+  width: 560px;
+  height: 272px;
+  flex-shrink: 0;
+  background: #bb945f;
+  margin: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+}
+.card__library__name {
+  color: #000;
+  font-family: Forum;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0.6px;
+  margin: 0px;
+}
+.card__library__title {
+  margin: 20px;
+}
+.card__input {
+  width: 520px;
+  height: 66px;
+  flex-shrink: 0;
+  margin: 0px 20px 25px 20px;
+}
+.input {
+  width: 520px;
+  height: 66px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+}
+input::placeholder {
+  color: #8e8e8e;
+  font-family: Forum;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0.6px;
+  margin-left: 20px;
+}
+
+.card__button__text {
+  color: #0c0c0e;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  margin: 0px;
+  width: 163px;
+  height: 24px;
+}
+.card__button__rectangle {
+  display: inline-flex;
+  padding: 10px 40px;
+  align-items: flex-end;
+  border-radius: 2px;
+  border: 1px solid #0c0c0e;
+}
+.card__button {
+  margin-bottom: 30px;
+}
+
+/* Digital library cards section styles end */
