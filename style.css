@@ -103,6 +103,7 @@ body {
   font-weight: 400;
   line-height: 50px;
   letter-spacing: 3px;
+  margin: 0px
 }
 /* Welcome to the Brooklyn library styles end */
 
@@ -796,9 +797,9 @@ input::placeholder {
 }
 .socials__hours {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 1147px;
+  /*gap: 1147px;*/
 }
 .footer__adress__hours__socials {
   display: flex;
