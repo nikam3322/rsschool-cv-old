@@ -267,8 +267,107 @@ body {
   gap: 90px;
 }
 
+.staff__picks {
+  color: #000;
+  font-family: Forum;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.line__small {
+  width: 60px;
+  height: 1px;
+  background: #BB945F;
+}
+
+.book__name__1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 266.667% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.book__name__2 {
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.book__descript {
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 266.667% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.book__description {
+  width: 355px;
+}
+
+.button__buy {
+  color: #0C0C0E;
+  text-align: center;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  width: 75px;
+  height: 30px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  border: 1px solid #0C0C0E;
+  background-color: rgba(28, 28, 28, 0);
+}
+
+.book__image {
+  width: 200px;
+  height: 300px;
+  flex-shrink: 0;
+}
+
+.fav_book__text {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 15px 0px 15px 20px;
+}
+
+.bg__description {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: end;
+  justify-content: start;
+  gap: 15px;
+  width: 550px;
+  height: 555px;
+  flex-shrink: 0;
+  border: 1px solid #000;
+  background: #FFF;
+}
 
 
+
+
+
+/*
 .fav__books {
   height: 1150px;
   flex-shrink: 0;
@@ -286,11 +385,7 @@ body {
   flex-flow: column wrap;
   margin: 15px 20px;
 }
-.book {
-  display: flex;
-  flex-direction: row;
-  align-items: end;
-}
+
 
 .book__p {
   color: #000;
