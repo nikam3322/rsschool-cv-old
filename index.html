@@ -61,7 +61,7 @@
                     </div>
                     <div class="about__icon__div">
                         <div class="about__icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="68" height="16" viewBox="0 0 68 16" fill="none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="68" height="16" viewBox="0 0 68 16" fill="none" class="paginaton">
                                 <a href="#" class="pagination__text"><rect width="16" height="16" rx="8" fill="#BB945F"/></a>
                                 <a href="#" class="pagination__text"><rect x="26" width="16" height="16" rx="8" fill="#0C0C0E"/></a>
                                 <a href="#" class="pagination__text"><rect x="52" width="16" height="16" rx="8" fill="#0C0C0E"/></a>
@@ -85,31 +85,19 @@
                 
                 <div class="favourites__radio-buttons">
                     <div class="favourites__radio-button">
-                        <div class="fav__chosen__icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
-                                <circle cx="8.5" cy="8.5" r="7.5" stroke="black" stroke-width="2"/>
-                                <circle cx="8.5" cy="8.5" r="3.5" fill="black"/>
-                            </svg>
-                        </div>
-                        <p class="fav__chosen__text">Winter</p>
+                        <input type="radio" id="winter" name="season" value="winter" class="fav__icon"
+                               checked>
+                        <label for="winter" class="fav__text">Winter</label>
                     </div>
 
                     <div class="favourites__radio-button">
-                        <div class="fav__icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
-                                <circle cx="8.5" cy="8.5" r="7.5" stroke="black" stroke-width="2"/>
-                            </svg>
-                        </div>
-                        <p class="fav__text">Spring</p>
+                        <input type="radio" id="spring" name="season" value="spring" class="fav__icon">
+                        <label for="spring">Spring</label>
                     </div>
 
                     <div class="favourites__radio-button">
-                        <div class="fav__icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
-                                <circle cx="8.5" cy="8.5" r="7.5" stroke="black" stroke-width="2"/>
-                            </svg>
-                        </div>
-                        <p class="fav__text">Summer</p>
+                        <input type="radio" id="summer" name="season" value="summer" class="fav__icon">
+                        <label for="summer">Summer</label>
                     </div>
 
                     <div class="favourites__radio-button">

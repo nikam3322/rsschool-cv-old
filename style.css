@@ -176,15 +176,17 @@ body {
   display: flex;
   justify-content: center;
 }
-.pagination__text {
-  position: relative;
+.pagination__text:hover,
+.pagination__text:focus,
+.pagination__text:active {
+  opacity: 0.75;
 }
-.pagination__text::after {
-  content: "";
-  position: absolute;
-  inset: -10px;
+.pagination {
+  display: inline-block;
 }
-
+.pagination a {
+  padding: 8px 16px;
+}
 /* About section styles end */
 
 /* Favourites section styles start */
@@ -207,12 +209,61 @@ body {
   margin-left: 20px;
   margin-top: 40px;
 }
+
+/****/
+.favourites__radio-button input[type=radio] {
+  width: 17px;
+  height: 17px;
+  flex-shrink: 0;
+  stroke-width: 2px;
+  stroke: #000;
+  display: none;
+}
+.favourites__radio-button label {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+	cursor: pointer;
+	position: relative;
+  padding-left: 20px;
+	margin-right: 90px;
+	line-height: 24px;
+	user-select: none;
+}
+
+.favourites__radio-button label:before {
+	content: "";
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: url(./assets/img/radio__button.svg) 0 0 no-repeat;
+}
+/*Checked*/
+.favourites__radio-button input[type=radio]:checked + label:before {
+	background: url(./assets/img/radio__button__checked.svg) 0 0 no-repeat;
+}
+
+
+
+
+/*
 .fav__chosen__icon {
   width: 17px;
   height: 17px;
   flex-shrink: 0;
   color: #000;
 }
+.fav__icon:checked {
+  width: 17px;
+  height: 17px;
+  flex-shrink: 0;
+  color: #000;
+}
+
 .fav__chosen__text {
   color: #000;
   font-family: Inter;
@@ -256,6 +307,14 @@ body {
   margin-left: 20px;
   margin-bottom: 40px;
 }
+
+*/
+
+
+
+
+
+
 .fav__books {
   height: 1150px;
   flex-shrink: 0;
