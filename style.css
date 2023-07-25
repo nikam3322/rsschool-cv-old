@@ -276,12 +276,13 @@ body {
   line-height: 40px; /* 200% */
   letter-spacing: 2px;
   text-transform: capitalize;
+  margin-top: 0px;
 }
 
 .line__small {
   width: 60px;
   height: 1px;
-  background: #BB945F;
+  background: #bb945f;
 }
 
 .book__name__1 {
@@ -293,6 +294,7 @@ body {
   line-height: 40px; /* 266.667% */
   letter-spacing: 2px;
   text-transform: uppercase;
+  height: 40px;
 }
 
 .book__name__2 {
@@ -304,6 +306,8 @@ body {
   line-height: 40px;
   letter-spacing: 2px;
   text-transform: capitalize;
+  margin: 0px;
+  margin-bottom: 20px;
 }
 
 .book__descript {
@@ -318,11 +322,12 @@ body {
 }
 
 .book__description {
-  width: 355px;
+  width: 363px;
+  height: 320px;
 }
 
 .button__buy {
-  color: #0C0C0E;
+  color: #0c0c0e;
   text-align: center;
   font-family: Inter;
   font-size: 10px;
@@ -334,14 +339,19 @@ body {
   height: 30px;
   flex-shrink: 0;
   border-radius: 2px;
-  border: 1px solid #0C0C0E;
+  border: 1px solid #0c0c0e;
   background-color: rgba(28, 28, 28, 0);
 }
 
-.book__image {
+.book__buy__button {
+  margin-bottom: 15px;
+}
+
+.book__img {
   width: 200px;
   height: 300px;
   flex-shrink: 0;
+  padding: 0px;
 }
 
 .fav_book__text {
@@ -360,12 +370,20 @@ body {
   height: 555px;
   flex-shrink: 0;
   border: 1px solid #000;
-  background: #FFF;
+  background: #fff;
+  padding: 15px 0px 0px 20px;
+}
+.book__image {
+  height: 300px;
 }
 
-
-
-
+.fav__books {
+  padding: 0px 20px 40px 20px;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 40px;
+  justify-content: space-between;
+}
 
 /*
 .fav__books {
