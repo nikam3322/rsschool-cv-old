@@ -1,11 +1,18 @@
 html {
   width: 1440px;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 *,
 *::before,
 * :after {
   box-sizing: inherit;
+}
+.wrapper {
+  width: 1440px;
+  align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 body {
   margin: 0px;
@@ -13,13 +20,21 @@ body {
 .header__background {
   height: 90px;
   background-color: #0c0c0e;
-}
-.header__wrapper {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding-top: 20px;
+}
+.header {
+  width: 100vw;
+  background-color: #fff;
+}
+.header__wrapper {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  align: center;
 }
 .header__list {
   margin: 0px;
@@ -49,7 +64,9 @@ body {
 }
 .header__link:hover,
 .header__link:focus,
-.header__link:active {
+.header__link:active,
+.link__tel__mail:hover,
+.favourites__radio-button label:hover{
   opacity: 0.75;
 }
 .header__name {
@@ -77,6 +94,8 @@ body {
   align-items: center;
   height: 600px;
   background: url(./assets/img/Welcome.png) no-repeat center;
+  width: 100vw;
+  background-color: #fff;
 }
 .welcome__wrapper {
   display: flex;
@@ -87,6 +106,12 @@ body {
   flex-shrink: 0;
   background: #0c0c0e;
   height: 220px;
+}
+.welcome__library__wrapper {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  align: center;
 }
 .welcome__name {
   text-transform: uppercase;
@@ -110,6 +135,14 @@ body {
 /* About section styles start */
 .about__wrapper {
   height: 837px;
+  background: #fff;
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  align: center;
+}
+.about {
+  width: 100vw;
   background: #fff;
 }
 .name {
@@ -192,6 +225,14 @@ body {
 /* Favourites section styles start */
 .favourites__wrapper {
   height: 1439px;
+  background: #fff;
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  align: center;
+}
+.fav__wrapper {
+  width: 100vw;
   background: #fff;
 }
 .favourites__descript {
@@ -432,8 +473,16 @@ body {
 /* Favourites section styles end */
 
 /* Coffee shop section styles start */
-.coffee_shop {
+.coffee__wrapper {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  align: center;
   padding: 20px 20px 40px 20px;
+}
+.coffee_shop {
+  width: 100vw;
+  background-color: white;
 }
 .coffee__description {
   display: flex;
@@ -550,7 +599,16 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 60px;
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  align: center;
 }
+.our__contacts__wrapper {
+  width: 100vw;
+  background-color: #fff;
+}
+
 .contacts__info {
   display: flex;
   justify-content: center;
@@ -608,6 +666,10 @@ body {
   width: 696px;
   height: 414px;
 }
+.link__tel__mail {
+  color: #000;
+  text-decoration: none;
+}
 /* Our contacts section styles end */
 
 /* Digital library cards section styles start */
@@ -618,6 +680,12 @@ body {
   padding: 20px;
   padding-bottom: 0px;
   margin-bottom: 41px;
+  margin-left: auto;
+  margin-right: auto;
+  align: center;
+}
+.digital__cards__wrapper {
+  width: 100vw;
 }
 .card__body__name {
   color: #000;
@@ -775,6 +843,14 @@ input::placeholder {
   background: #0c0c0e;
   padding: 20px;
   padding-bottom: 44px;
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  align: center;
+}
+.footer__wrapper__general {
+  width: 100vw;
+  background-color: #fff;
 }
 .adress__name {
   color: #fff;
